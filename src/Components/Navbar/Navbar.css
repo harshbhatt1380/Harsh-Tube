@@ -1,0 +1,131 @@
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.nav-left .menu-icon{
+    width: 35px;
+    margin-right: 36px;
+}
+.nav-left .logo{
+    width: 35px;
+    height: 35px;
+}
+.nav-middle .search-box{
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+.nav-middle .search-box input{
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+.nav-middle .search-box img{
+    width: 15px;
+}
+.nav-right img{
+    width: 25px;
+    margin-right: 25px;
+}
+.nav-right .user-icon{
+    width: 35px;
+    border-radius: 50%;
+}
+
+.appName{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-left: 5px;
+}
+
+.appName:hover{
+    color:red
+}
+
+@media (max-width:900px){
+    .menu-icon{
+        display: none;
+    }
+    .nav-right img{
+        display: none;
+    }
+    .nav-right .user-icon{
+        display: block;
+        width: 30px;
+    }
+    .logo{
+        width: 90px;
+    }
+    .nav-middle .search-box input{
+        width: 100px;
+    }
+}
+
+.searchButton{
+    padding: 7px;
+    border-radius: 7px;
+    font-weight: 600;
+    color:darkcyan;
+}
+
+.ham{
+    position:absolute;
+    background-color: rgb(210, 217, 217);
+    margin-top:510px;
+    height: 420px;
+    width: 230px;
+    border-radius: 10px;
+    z-index: auto;
+    box-shadow: 0 0 10px black;
+   
+}
+
+
+
+.accounts{
+    margin-top:12px;
+    margin-left:70px;
+}
+
+.modiImage{
+    border-radius:50%;
+    height: 20px;
+    width: 20px;
+    
+}
+
+.abc{
+    display: flex;
+    margin-left:9px;
+    margin-right: 5px;
+    margin-top:20px;
+    line-height: 29px;
+    border-bottom:2px double black;
+    padding-top:15px;
+    padding-bottom:15px;
+    
+}
+
+.abc div{
+    font-weight: 600;
+}
+
+.abc:active{
+    border:5px solid aquamarine;
+}
+
+
+
+
+
+
+
+
